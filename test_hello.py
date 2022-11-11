@@ -3,6 +3,5 @@ from hello import hello
 
 def test_hello():
     runner = CliRunner()
-    result = runner.invoke(hello, ["--name","Thor",
-        "--color","blue"])
-    assurt "Thor" in result.output
+    result = runner.invoke(hello, ["--name", "Thor", "--color", "blue"])
+    assert "Thor" in result.output
