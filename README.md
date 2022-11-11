@@ -1,7 +1,4 @@
 # azure-devops
 
 This is a repo for azure devops
-
-Created Makefile
-
-this is another change
+[![.github/workflows/main.yml](https://github.com/Merihun/azure-devops/actions/workflows/main.yml/badge.svg)](https://github.com/Merihun/azure-devops/actions/workflows/main.yml)
