@@ -6,3 +6,5 @@ test:
 	python -m pytest -vv test_hello.py
 hello:
 	echo "Hello world!"
+lint:
+	pylint --disable=R,C,E1120,W0613 hello.py
